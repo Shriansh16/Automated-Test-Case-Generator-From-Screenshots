@@ -42,7 +42,7 @@ How to run?
 1. Create a virtual environment using the command "conda create -p venv python==3.10 -y"                                    
 2. Activate the environment using the command "conda activate venv"                                                         
 3. Create a "secrets.toml" file in the project root directory and write this line:
-4. GOOGLE_API_KEY="AIzaSyBuGFT04kg0pyRuWVcVmVYJWZsM9_Hpsy0"                                                            
+4. GOOGLE_API_KEY="your google api key"                                                            
 5. Install all the dependencies using the command "pip install -r requirements.txt"
 6. Execute "app.py" using the command "streamlit run app1.py”
                                                                                       
