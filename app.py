@@ -45,7 +45,7 @@ if uploaded_files:
         image = Image.open(uploaded_file)
         st.image(image, caption=f"Uploaded Image: {uploaded_file.name}", use_column_width=True)
 
-submit = st.button("Tell me about the images")
+submit = st.button("Submit")
 
 # Input prompt for generating the test case
 input_prompt = """
